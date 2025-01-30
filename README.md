@@ -7,10 +7,20 @@ FIXME: description
 Download from http://example.com/FIXME.
 
 ## Usage
+Compile the code with
+```
+lein uberjar
+```
 
-FIXME: explanation
+and then run it with
+```
+java -jar target/uberjar/terra-tracker-api-0.1.0-SNAPSHOT-standalone.jar
+```
 
-    $ java -jar terra-tracker-api-0.1.0-standalone.jar [args]
+The Swagger API doc page can then be accessed at
+```
+http://localhost:3001/api
+```
 
 ## Options
 
